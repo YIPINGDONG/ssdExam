@@ -60,6 +60,6 @@ class TestSubject < MiniTest::Test
    def addSomeTopics
       @subject.addTopic @topic1
       @subject.addTopic @topic2
-      @subject.addTopic @topic3
+      @subject.addTopic @topic3#
   end
 end
