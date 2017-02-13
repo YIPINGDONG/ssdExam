@@ -55,6 +55,10 @@ class TestSubject < MiniTest::Test
 
    def test_merge_topics
      # To be completed
+     result = topic1.name
+     assert_equal 6,result
+     result = topic2.name
+     assert_equal 
    end
 
    def addSomeTopics
